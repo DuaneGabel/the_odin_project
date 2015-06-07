@@ -1,0 +1,18 @@
+li {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  list-style-type: none;
+  display: inline;
+  padding: 5px;
+  float: right;
+}
+#logo {
+  margin: auto;
+  width: 35em;
+  text-align: center;
+}
+#searchBar {
+  margin: auto;
+  padding-top: 15px;
+  text-align: center;
+}
