@@ -1,0 +1,15 @@
+
+.row {
+    clear: both;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    float: left;
+}
+
+.hover {
+    background-color: yellow;
+}
