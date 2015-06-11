@@ -1,6 +1,5 @@
 $(document).ready(function () {
     function createGrid(numCells) {
-//        var cellDim = $('#container').width() / numCells;
         var cellDim = 960 / numCells;
 
         for (i = 0; i < numCells; i++) {
