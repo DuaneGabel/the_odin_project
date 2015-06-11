@@ -1,5 +1,8 @@
 $(document).ready(function () {
     function createGrid(numCells) {
+//        var cellDim = $('#container').width() / numCells;
+        var cellDim = 960 / numCells;
+
         for (i = 0; i < numCells; i++) {
             $('#container').append('<div class="row">');
 
@@ -7,6 +10,8 @@ $(document).ready(function () {
                 $('#container').append('<div class="cell">');
             }
         }
+
+        $('.cell').css({'width': cellDim, 'height': cellDim});
 
         $('.cell').hover(function() {
             $(this).addClass('hover');
@@ -19,7 +24,7 @@ $(document).ready(function () {
         $('.row').remove();
         $('.cell').remove();
 
-        var newNumCells = prompt("Enter number of cells");
+        var newNumCells = prompt("Enter the number of cells for new grid");
 
         $(createGrid(newNumCells));
     }); 

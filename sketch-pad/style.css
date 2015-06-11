@@ -1,11 +1,19 @@
+button {
+    margin: 20px;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+}
+
+#container {
+    text-align: center;
+}
 
 .row {
     clear: both;
 }
 
 .cell {
-    width: 30px;
-    height: 30px;
     border: 1px solid black;
     float: left;
 }
